@@ -16,6 +16,11 @@ Requires:	/usr/bin/php
 Requires:	nagios >= 3.0
 Requires:	nagios-merlin >= 0.9.0
 Requires:	php-common >= 4:5.1.6
+Requires:	php-iconv
+Requires:	php-pcre
+Requires:	php-session
+Requires:	php-simplexml
+Requires:	php-spl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
